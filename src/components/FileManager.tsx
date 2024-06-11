@@ -1,7 +1,7 @@
 const FileManager = ({ files, filee, setFile }) => {
   return (
     <>
-      {files.map((file) => {
+      {files.map((file: any) => {
         return (
           <>
             <button
