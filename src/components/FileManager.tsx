@@ -18,3 +18,20 @@ const FileManager = ({ files, filee, setFile }) => {
 };
 
 export default FileManager;
+
+// const renderFileStructure = (files) => {
+//   return (
+//     <ul>
+//       {files.map((file) => (
+//         <li
+//           key={file.name}
+//           onClick={() => file.type === "file" && onSelectFile(file)}>
+//           {file.name} {file.type === "file" && `(${file.extension})`}
+//           {file.type === "folder" && renderFileStructure(file.children)}
+//         </li>
+//       ))}
+//     </ul>
+//   );
+// };
+
+// return <div>{renderFileStructure(structure)}</div>;
